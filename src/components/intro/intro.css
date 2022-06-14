@@ -16,7 +16,7 @@
 }
 
 .i-left-wrapper {
-  padding: 50px;
+  padding: 3.125rem;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -24,16 +24,16 @@
 }
 
 .i-intro {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 300;
 }
 
 .i-name {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .i-title {
-  height: 50px;
+  height: 3.125rem;
   overflow: hidden;
 }
 
@@ -44,22 +44,22 @@
 
 @keyframes move {
   25% {
-    transform: translateY(-50px);
+    transform: translateY(-3.125rem);
   }
   50% {
-    transform: translateY(-100px);
+    transform: translateY(-6.25rem);
   }
   75% {
-    transform: translateY(-150px);
+    transform: translateY(-9.375rem);
   }
   100% {
-    transform: translateY(-200px);
+    transform: translateY(12.5rem);
   }
 }
 
 .i-title-item {
-  height: 50px;
-  font-size: 30px;
+  height: 3.125rem;
+  font-size: 1.875rem;
   font-weight: bold;
   color: #59b256;
   display: flex;
@@ -67,10 +67,10 @@
 }
 
 .i-scroll {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   position: absolute;
-  bottom: 20px;
+  bottom: 1.25rem;
 }
 
 .i-img {
@@ -90,14 +90,14 @@
   right: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
   .i {
     flex-direction: column;
   }
 
   .i-left-wrapper {
   
-    padding: 10px;
+    padding: 0.6rem;
     align-items: center;
     justify-content: center;
     text-align: center;
