@@ -23,15 +23,18 @@ const About = () => {
         As an artist, my first love will always be crafting the visual. Through Juno I was able to leverage my creative skills with an incredible web development toolkit, and now I spend most days branding, designing and building out web interfaces as a freelancer.
         </p>
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
+         
           <div className="a-award-texts">
             <h4 className="a-award-title">Internship Certificate</h4>
             <p className="a-award-desc">
              I have done four month of intership as a MERN stack Developer.
             </p>
+            
           </div>
         </div>
+        {/* <img src={Award} alt="" className="a-award-img" /> */}
       </div>
+      
     </div>
   );
 };
