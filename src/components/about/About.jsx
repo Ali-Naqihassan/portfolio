@@ -17,7 +17,7 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-        I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!
+        I'm a ali web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!
         </p>
         <p className="a-desc">
         As an artist, my first love will always be crafting the visual. Through Juno I was able to leverage my creative skills with an incredible web development toolkit, and now I spend most days branding, designing and building out web interfaces as a freelancer.
