@@ -3,14 +3,19 @@ import Product from "../product/Product";
 import { products } from "../../data";
 import Ss from "../../img/ss.png";
 import Ss2 from "../../img/ss2.png";
+import P3 from "../../img/p3.png";
 import Video from "../../img/video2.mp4";
 import Video3 from "../../img/video3.mp4";
+import V4 from "../../img/v4.mp4";
+import V5 from "../../img/v5.mp4";
 import VideoPlayer from 'react-video-js-player'
 const ProductList = () => {
-  const videoSrc=Video;
+  const v4Src=V4;
+  const v5Src=V5;
   const video3Src=Video3;
   const poster=Ss
   const poster3=Ss2
+  const poster4=P3
   return (
     <div className="pl">
       <div className="pl-texts">
@@ -24,7 +29,7 @@ const ProductList = () => {
       
       <div className="pl-list">
         <div className="v1"> <VideoPlayer 
-          src={videoSrc}
+          src={video3Src}
           poster={poster}
           width='420'
           height='320'
@@ -32,12 +37,19 @@ const ProductList = () => {
         /></div>
        
         <div className="v2"><VideoPlayer 
-          src={video3Src}
-          poster={poster3}
+          src={v4Src}
+          poster={poster4}
           width='420'
           height='320'
           
-        /></div>
+        />User side</div>
+        <div className="v3"><VideoPlayer 
+          src={v5Src}
+          poster={poster4}
+          width='420'
+          height='320'
+          
+        />Driver side</div>
         
         
         {/* <img src={Ss} alt="" />
