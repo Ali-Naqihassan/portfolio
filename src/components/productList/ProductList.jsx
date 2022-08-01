@@ -1,10 +1,9 @@
 import "./productList.css";
-import Product from "../product/Product";
-import { products } from "../../data";
+
 import Ss from "../../img/ss.png";
-import Ss2 from "../../img/ss2.png";
+
 import P3 from "../../img/p3.png";
-import Video from "../../img/video2.mp4";
+
 import Video3 from "../../img/video3.mp4";
 import V4 from "../../img/v4.mp4";
 import V5 from "../../img/v5.mp4";
@@ -14,7 +13,7 @@ const ProductList = () => {
   const v5Src=V5;
   const video3Src=Video3;
   const poster=Ss
-  const poster3=Ss2
+  
   const poster4=P3
   return (
     <div className="pl">
